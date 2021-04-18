@@ -1,0 +1,91 @@
+.background-box{
+	position: relative;
+}
+.background{
+	width: 100%
+}
+.shield{
+	position: absolute;
+	width: 100px;
+	top: 55%;
+	left: 25%;
+	animation: shieldd 4s infinite;
+}
+@keyframes shieldd{
+	0% {top:55%;}
+	25% {top:30%; left:70%;}
+	50% {top:55%; left:70%;}
+	75% {top:30%; left:25%;}
+	100% {top:50%; left:25%;}
+}
+.spiderman{
+	position: absolute;
+	width: 340px;
+	top: 0;
+	transform: translate(-50%);
+	left: 50%;
+	animation: spider-man 1.5s 1;
+}
+@keyframes spider-man{
+	0% {top: -50%;}
+	100%{top: 0;}
+}
+.blackwidow{
+	position: absolute;
+	width: 270px;
+	bottom: 0;
+	transform: translate(-50%);
+	left: 50%;
+	animation: natasha 1.8s 1;
+}
+@keyframes natasha{
+	0% {left: -100%;}
+	100% {transform: translate(-50%); left: 50%;}
+}
+.captainamerica{
+	position: absolute;
+	width: 330px;
+	bottom: 2%;
+	right: 7%;
+	animation: captain-america 2.5s 1;
+}
+@keyframes captain-america{
+	0% {top: -150%;}
+	100%{top: 43.5%;}
+}
+.hulk{
+	position: absolute;
+	width: 440px;
+	bottom: 0;
+	left: 0;
+	animation: hulkk 2.5s 1;
+}
+@keyframes hulkk{
+	0% {top: -150%;}
+	100% {top: 32%;}
+
+}
+.thor{
+	position: absolute;
+	width: 250px;
+	top: 0;
+	right: 0;
+	/*transform: rotate(-15deg);*/
+	animation: thorr 2.5s 1;
+}
+@keyframes thorr{
+	from{right: -200%}
+	to{right: 0;}
+}
+.ironman{
+	position: absolute;
+	width: 230px;
+	top: 0;
+	left: 0;
+	transform: rotate(20deg);
+	animation: iron-man 2.5s 1;
+}
+@keyframes iron-man{
+	from{left: -200%;}
+	to{left: 0;}
+}
